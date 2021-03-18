@@ -1,0 +1,49 @@
+STEP :
+
+1. BUAT FOLDER
+- models
+- services
+- ui : pages & widgets
+- shared : menyimpan yang berhubungan dengan theme seperti margin, color, fonts, dsb
+- assets
+
+2. PUBSPEC.YAML
+- flutter_bloc
+- google_fonts
+- superchanged //merubah to.Color()
+- flutter spinkit // material loading
+- get // untuk navigasi halaman
+- intl // agar jumlah uang yang ditampilkan ada 000
+- equatable
+
+3. FOLDER PAGES
+- general_page.dart : jadikan home di main.dart | ketika membuat scaffold, jangan lupa import material.dart | tambahkan properti title, subtitle, dsb
+- buat pages.dart
+- buat sign_in_page.dart
+- buat sign_up_page.dart
+- buat address_page.dart
+- buat main_page.dart
+- buat file food_page.dart
+- buat file food_details_page.dart
+- buat file payment_page.dart
+- buat file illustration_page.dart
+
+3. FOLDER SHARED
+- buat file shared.dart untuk menampung import dari beberapa file
+- buat file. theme.dart untuk menampung default
+
+4. FOLDER WIDGETS
+- buat widgets.dart
+- buat custom_bottom_navbar.dart
+- buat food_card.dart
+- buat rating.dart
+- custom_tabbar.dart
+- food_list_item.dart
+
+5. FOLDER MODELS
+- buat models.dart
+- buat food.dart
+- transaction.dart
+- user.dart
+
+Menit 6.54
